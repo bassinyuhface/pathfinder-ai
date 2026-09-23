@@ -2,78 +2,96 @@
 AI-powered career exploration and future planning for high school students.
 # Pathfinder AI
 
-An AI-powered career exploration and future-planning app for high school students.
+An app that helps high school students figure out what they want to do after graduation.
 
-## Overview
-Pathfinder AI is an iOS app designed to help high school students explore careers, discover post-graduation options, and plan their futures. The app will use AI to provide personalized career guidance based on students' interests, goals, and preferences.
+## About the Project
 
-## Problem Statement
-Many high school students are unsure what they want to do after graduation. Finding information about careers, college, trade schools, and employment can be overwhelming. Pathfinder AI aims to make exploring these options easier and more accessible.
+A lot of high school students don't know what they want to do after they graduate, and that's completely normal. There are so many different careers and options out there that it can be hard to know where to start.
 
-## Target Audience
-High school students exploring their options after graduation.
+Pathfinder AI is an app I'm working on to help students explore different careers and figure out what path might be right for them. It will use AI to suggest careers based on their interests, hobbies, and goals.
 
-## Initial App Ideas
-1. Pathfinder AI — AI-powered career exploration and future planning.
-2. BeatVault — A music production organizer for saving and managing beat projects.
-3. GameTrack — A gaming library and progress tracker.
+## Who Is This App For?
 
-## MVP (Minimum Viable Product)
-- [ ] Student onboarding and interest questionnaire
-- [ ] AI-powered career exploration chat
-- [ ] Personalized career recommendations
-- [ ] Career detail pages
-- [ ] Save and revisit careers
-- [ ] User profile and authentication
+High school students who are unsure about their future or want to learn more about their options after graduation.
 
-## Planned Future Features
-- [ ] Personalized post-graduation action plans
-- [ ] College and trade school exploration
-- [ ] Scholarship and financial aid resources
-- [ ] Career comparison tool
+## My 3 App Ideas
 
-## Tech Stack
-- Language: Swift
-- UI Framework: SwiftUI
-- IDE: Xcode
-- Backend: Firebase or Supabase (to be determined)
-- AI Integration: To be determined
-- Version Control: Git and GitHub
+1. **Pathfinder AI** - An app that helps students explore careers and plan for life after high school.
+2. **BeatVault** - An app for music producers to organize beats and keep track of their projects.
+3. **GameTrack** - An app that helps gamers organize their games and track their progress.
 
-## Development Progress
+## Main Features (MVP)
 
-### Day 1 — Planning & Setup
-- [x] Develop initial app ideas
-- [x] Select Pathfinder AI as the main concept
-- [x] Create private GitHub repository
-- [ ] Add instructor as collaborator (pending)
-- [ ] Set up Xcode and coding agent
-- [ ] Commit initial project documentation
+These are the main features I want to include in the first version of the app.
 
-### Day 2 — Research & Skeleton
-- [ ] Research Swift and SwiftUI
+- [ ] A home screen
+- [ ] A login and profile system
+- [ ] Questions about the user's interests and goals
+- [ ] An AI career chat
+- [ ] Career recommendations based on user interests
+- [ ] Pages with information about different careers
+- [ ] A way to save careers
+
+## Features I Might Add Later
+
+- [ ] Personalized plans for after graduation
+- [ ] College and trade school information
+- [ ] Scholarship resources
+- [ ] A way to compare different careers
+- [ ] Progress tracking
+
+## Technologies I'm Using
+
+- Swift
+- SwiftUI
+- Xcode
+- Git and GitHub
+- Firebase or Supabase (not decided yet)
+- AI integration (still researching)
+
+## Project Progress
+
+### Day 1 - Planning and Setup
+
+- [x] Come up with 3 app ideas
+- [x] Choose Pathfinder AI
+- [x] Create a private GitHub repository
+- [ ] Add my instructor as a collaborator
+- [ ] Set up Xcode
+- [ ] Set up Codex or Claude Code
+- [ ] Finish my first README commit
+
+### Day 2 - Research and Starting the App
+
+- [ ] Learn the basics of Swift and SwiftUI
 - [ ] Research Firebase or Supabase
 - [ ] Research Codex or Claude Code
-- [ ] Finalize MVP requirements
-- [ ] Create AGENTS.md or CLAUDE.md
-- [ ] Build Home and Login screens
+- [ ] Finalize the MVP features
+- [ ] Create an AGENTS.md or CLAUDE.md file
+- [ ] Build the home screen
+- [ ] Build the login screen
 
-### Day 3+ — Development
-- [ ] Implement core features
-- [ ] Test features and fix bugs
-- [ ] Update documentation as the app develops
+### Day 3 and Beyond - Building the App
+
+- [ ] Start building the main features
+- [ ] Test features as I add them
+- [ ] Fix bugs and update the README
 
 ## Testing
-The app will be tested using the Xcode Simulator and macOS Terminal where appropriate. Feature tests, expected results, and discovered bugs will be documented as development progresses.
 
-## Security & Privacy
-- Never commit API keys, passwords, or credentials.
-- Keep secrets out of version control.
-- Protect student data and collect only information necessary for app functionality.
-- Keep private AI API keys on a secure backend.
+I'll use the Xcode Simulator to test the app as I build it. I'll also use Terminal when needed and keep track of bugs and fixes.
 
-## Installation & Setup
-Setup instructions will be added once the Xcode project and backend are configured.
+## Security
+
+- Keep API keys and passwords private.
+- Never upload private keys or credentials to GitHub.
+- Make sure user information is handled safely.
+- Keep private AI API keys on the backend instead of putting them directly in the app.
+
+## Installation
+
+Instructions for downloading and running the app will be added once the Xcode project is set up.
 
 ## License
-To be determined.
+
+Not decided yet.
