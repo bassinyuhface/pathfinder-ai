@@ -13,22 +13,24 @@ struct ContentView: View {
     private let canvas = Color(red: 0.96, green: 0.97, blue: 0.98)
 
     var body: some View {
-        ScrollView(showsIndicators: false) {
-            VStack(alignment: .leading, spacing: 26) {
-                header
-                welcome
-                exploreButton
-                futureSection
-                footerNote
+        NavigationStack {
+            ScrollView(showsIndicators: false) {
+                VStack(alignment: .leading, spacing: 26) {
+                    header
+                    welcome
+                    exploreButton
+                    futureSection
+                    footerNote
+                }
+                .padding(.horizontal, 22)
+                .padding(.top, 16)
+                .padding(.bottom, 32)
+                .frame(maxWidth: 560)
+                .frame(maxWidth: .infinity)
             }
-            .padding(.horizontal, 22)
-            .padding(.top, 16)
-            .padding(.bottom, 32)
-            .frame(maxWidth: 560)
-            .frame(maxWidth: .infinity)
+            .background(canvas.ignoresSafeArea())
+            .foregroundStyle(ink)
         }
-        .background(canvas.ignoresSafeArea())
-        .foregroundStyle(ink)
     }
 
     private var header: some View {
@@ -73,7 +75,9 @@ struct ContentView: View {
     }
 
     private var exploreButton: some View {
-        Button(action: {}) {
+        NavigationLink {
+            CareerInterestsView()
+        } label: {
             HStack(spacing: 10) {
                 Text("Explore Careers")
                     .font(.system(size: 16, weight: .semibold, design: .rounded))
